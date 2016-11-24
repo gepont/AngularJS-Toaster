@@ -441,6 +441,8 @@
 
                         scope.toasters = [];
 
+                        toaster.toasters = scope.toasters;
+                        
                         function isUndefinedOrNull(val) {
                             return angular.isUndefined(val) || val === null;
                         }
