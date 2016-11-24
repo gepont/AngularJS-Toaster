@@ -286,7 +286,8 @@
                             closeButton: mergedConfig['close-button'],
                             closeHtml: mergedConfig['close-html'],
                             animation: mergedConfig['animation-class'],
-                            mouseoverTimer: mergedConfig['mouseover-timer-stop']
+                            mouseoverTimer: mergedConfig['mouseover-timer-stop'],
+                            toastMessage: mergedConfig['toast-message']
                         };
 
                         scope.$on(
