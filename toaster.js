@@ -90,7 +90,8 @@
                             onHideCallback: params.onHideCallback,
                             directiveData: params.directiveData,
                             tapToDismiss: params.tapToDismiss,
-                            toastMessage: params.toastMessage
+                            toastMessage: params.toastMessage,
+                            iconClass: params.iconClass
                         };
                         toasterId = params.toasterId;
                     } else {
