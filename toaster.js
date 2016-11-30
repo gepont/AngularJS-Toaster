@@ -90,7 +90,7 @@
                             onHideCallback: params.onHideCallback,
                             directiveData: params.directiveData,
                             tapToDismiss: params.tapToDismiss,
-                            toastMessage: params.toastMessage,
+                            text: params.text,
                             iconClass: params.iconClass
                         };
                         toasterId = params.toasterId;
@@ -289,7 +289,7 @@
                             closeHtml: mergedConfig['close-html'],
                             animation: mergedConfig['animation-class'],
                             mouseoverTimer: mergedConfig['mouseover-timer-stop'],
-                            toastMessage: mergedConfig['toast-message']
+                            text: mergedConfig['text']
                         };
 
                         scope.$on(
