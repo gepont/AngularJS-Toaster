@@ -1,6 +1,6 @@
 {
   "name": "angularjs-toaster",
-  "version": "2.1.0-pocket",
+  "version": "2.1.1",
   "main": "toaster.js",
   "description": "AngularJS Toaster is a customized version of toastr non-blocking notification javascript library",
   "author": "Jiri Kavulak",
